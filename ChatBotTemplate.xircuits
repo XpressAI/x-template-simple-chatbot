@@ -583,8 +583,8 @@
                                 "cbd8c502-c2e5-46c8-b479-b2f6b1b47657"
                             ],
                             "in": false,
-                            "label": "example",
-                            "varName": "example",
+                            "label": "default",
+                            "varName": "default",
                             "portType": "",
                             "dataType": ""
                         }
@@ -1924,7 +1924,7 @@
                     "selected": false,
                     "extras": {
                         "type": "comment",
-                        "commentInput": "This defines an agent called \"example\". When using an OpenAI SDK to access it,\nyou will need to provide that name as the model name. \n\nIn this template, it simply passes on the conversation to the Xpress AI chat\ncomponent to get a response. \n\nYou can try this out in the terminal with the following command:\n\nhttp 127.0.0.1:8080/chat/completions model=example messages[0][role]=user messages[0][content]=\"What is the meaning of life?\""
+                        "commentInput": "This defines an agent called \"default\". When using an OpenAI SDK to access it,\nyou will need to provide that name as the model name. \n\nIn this template, it simply passes on the conversation to the Xpress AI chat\ncomponent to get a response. \n\nYou can try this out in the terminal with the following command:\n\nhttp 127.0.0.1:8080/chat/completions model=default messages[0][role]=user messages[0][content]=\"What is the meaning of life?\""
                     },
                     "x": -500.519,
                     "y": 393.667,
@@ -1940,7 +1940,7 @@
                     "selected": true,
                     "extras": {
                         "type": "comment",
-                        "commentInput": "This defines an agent called \"streaming\". It does essentially\nthe same thing as our \"example\" agent already does, but it uses the \nXpressAIStreamingChat component.\n\nThat component produces a stream of tokens instead of a single response.\nIn order to stream those tokens back to the user, we use ForEachStreaming\nand ConverseEmitResponse."
+                        "commentInput": "This defines an agent called \"streaming\". It does essentially\nthe same thing as our \"default\" agent already does, but it uses the \nXpressAIStreamingChat component.\n\nThat component produces a stream of tokens instead of a single response.\nIn order to stream those tokens back to the user, we use ForEachStreaming\nand ConverseEmitResponse."
                     },
                     "x": -468.296,
                     "y": 770.334,
